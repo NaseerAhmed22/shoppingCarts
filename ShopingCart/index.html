@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>SHOPING CART</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+           
+            <div class="cart">
+                <div id="display" class="cart-item">
+                    <div class="row">
+                        <div class="center-item">
+                            <img src="./yedjpkwxljtb75t3tezl.png" alt="">
+                            <h5>Samsung Galaxy S8</h5>
+                        </div>
+                        <div class="center-item">
+                            <div class="input-group number">
+                                <button id="phone-plus" class="btn"><i class="ri-arrow-up-s-line"></i></button>
+                                <input  id="phone-number" class="form-control" type="number" min="0"  value="1">
+                                <button id="phone-minus" class="btn"><i class="ri-arrow-down-s-line"></i></button>
+                            </div>
+                            <h5>$ <span id="total">399.99</span></h5>
+                            <a href="#" class="remove" onclick="click()">remove</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <!-- /// item 1 end -->
+            <div class="cart">
+                <div id="display" class="cart-item">
+                    <div class="row">
+                        <div class="center-item">
+                            <img src="./phone-1_gvesln.png" alt="">
+                            <h5>Google Pixel</h5>
+                        </div>
+                        <div class="center-item">
+                            <div class="input-group number">
+                                <button id="case-plus" class="btn"><i class="ri-arrow-up-s-line"></i></button>
+                                <input  id="case-number" class="form-control" type="number" min="0"  value="1">
+                                <button id="case-minus" class="btn"><i class="ri-arrow-down-s-line"></i></button>
+                            </div>
+                            <h5>$ <span id="total">499.99</span></h5>
+                            <a href="#" class="remove" onclick="click()">remove</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <!-- /// item 2 end -->
+            <div class="cart">
+                <div id="display" class="cart-item">
+                    <div class="row">
+                        <div class="center-item">
+                            <img src="./phone-3_h2s6fo.png" alt="">
+                            <h5>Xiaomi Redmi Note 2</h5>
+                        </div>
+                        <div class="center-item">
+                            <div class="input-group number">
+                                <button id="center-plus" class="btn"><i class="ri-arrow-up-s-line"></i></button>
+                                <input  id="center-number" class="form-control" type="number" min="0" value="1">
+                                <button id="center-minus" class="btn"><i class="ri-arrow-down-s-line"></i></button>
+                            </div>
+                            <h5>$ <span id="total">699.99</span></h5>
+                            <a href="#" class="remove" onclick="click()">remove</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <!-- /// item 3 end -->
+            <div class="cart">
+                <div id="display" class="cart-item">
+                    <div class="row">
+                        <div class="center-item">
+                            <img src="./phone-2_ohtt5s.png" alt="">
+                            <h5>Samsung Galaxy S7</h5>
+                        </div>
+                        <div class="center-item">
+                            <div class="input-group number">
+                                <button id="last-plus" class="btn"><i class="ri-arrow-up-s-line"></i></button>
+                                <input  id="last-number" class="form-control" type="number" min="0" value="1">
+                                <button id="last-minus" class="btn"><i class="ri-arrow-down-s-line"></i></button>
+                            </div>
+                            <h5>$ <span id="total">599.99</span></h5>
+                            <a href="#" class="remove" id="remove-item" onclick="click()">remove</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <!-- /// item 4 end -->
+        </div>
+        <div class="end">
+            <h5>Total Price</h5>
+        </div>
+        <div class="status">
+            <h5>$ <span id="total-price">2299.99</span></h5>
+        </div>
+    </section>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
